@@ -42,7 +42,7 @@ __1.4) Resize__
 <img width="1136" height="372" src="https://miro.medium.com/v2/resize:fit:1400/1*-8_kogvwmL1H6ooN1A1tsQ.png">
 
 <p align="center">
-Figure1
+_Figure1_
 </p>
 
 ทำการรวมแหล่งของข้อมูลมาเป็นก้อนเดียวแล้วหลังจากนั้นแยก ข้อมูล ไปเทรน 7 ส่วน และ อีก 3 ส่วนนำมาเพื่อใช้ทดสอบ
@@ -53,7 +53,7 @@ Figure1
     <img width="768" height="310" src="https://datatron.com/wp-content/uploads/2021/05/Machine-Learning-Pipeline_2.png">
 </p>
 <p align="center">
-Figure2
+_Figure2_
 </p>
 
 
@@ -99,7 +99,7 @@ Figure2
 
   * [Data Set](https://github.com/kittinan/thai-handwriting-number) from [kittinan](https://github.com/kittinan)
   * [grid_search_utils](https://www.kaggle.com/code/juanmah/grid-search-utils) from [Juanma Hernández](https://www.kaggle.com/juanmah)
-  * [Figure1](https://miro.medium.com/v2/resize:fit:1400/1*-8_kogvwmL1H6ooN1A1tsQ.png)
-  * [Figure2](https://datatron.com/wp-content/uploads/2021/05/Machine-Learning-Pipeline_2.png)
+  * [_Figure1_](https://miro.medium.com/v2/resize:fit:1400/1*-8_kogvwmL1H6ooN1A1tsQ.png)
+  * [_Figure2_](https://datatron.com/wp-content/uploads/2021/05/Machine-Learning-Pipeline_2.png)
 
 
