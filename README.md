@@ -1,7 +1,7 @@
 # DADS 6003 Thai Hand Writing Number Classification
 
 
-###1 Data collection
+1 Data collection
 รูปภาพตัวเลขไทยของกลุ่มเราได้มาจาก 2 แหล่ง ข้อมูล 
 1.จาก repo ของคุณ กิตินันท์
 2.เขียนเองเอง
@@ -16,6 +16,7 @@ Data Preprocessing
 ##1. convert image to array
 
 #1.1)Original image
+
  
 ![image](https://github.com/eatrabyo/dads-6003-thai_num_classification/assets/83213407/add8c1a8-0ecd-4289-9dd1-61ffb4107d08)
 
@@ -23,6 +24,7 @@ Data Preprocessing
 
 
 #1.2)Dilated image
+
  
 ![image](https://github.com/eatrabyo/dads-6003-thai_num_classification/assets/83213407/2f43314c-96e6-41c0-9cac-308dca7f8f38)
 
