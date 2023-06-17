@@ -42,7 +42,7 @@ __1.4) Resize__
 <img width="1136" height="372" src="https://miro.medium.com/v2/resize:fit:1400/1*-8_kogvwmL1H6ooN1A1tsQ.png">
 
 <p align="center">
-_Figure1_
+<em>Figure1</em>
 </p>
 
 ทำการรวมแหล่งของข้อมูลมาเป็นก้อนเดียวแล้วหลังจากนั้นแยก ข้อมูล ไปเทรน 7 ส่วน และ อีก 3 ส่วนนำมาเพื่อใช้ทดสอบ
@@ -53,7 +53,7 @@ _Figure1_
     <img width="768" height="310" src="https://datatron.com/wp-content/uploads/2021/05/Machine-Learning-Pipeline_2.png">
 </p>
 <p align="center">
-_Figure2_
+<em>Figure2</em>
 </p>
 
 
