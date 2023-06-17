@@ -38,6 +38,18 @@ Data Preprocessing
  
 ![image](https://github.com/eatrabyo/dads-6003-thai_num_classification/assets/83213407/c6253682-8074-40bb-a9f2-4520f4d53fff)
 
+2.แยก train test split 
+
+3. preprocessing standard scaler
+
+4.put in pipeline
+
+5.tuning hyper parameter
+
+6.
+
+
+
 
 
 
