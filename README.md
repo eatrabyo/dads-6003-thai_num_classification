@@ -112,9 +112,20 @@ Learning curve is a useful tool for assessing the performance and generalization
 
 ### 7.Accuracy Score
 
+Accuracy score is commonly used as a performance metric for classification tasks, including Thai number handwriting prediction, due to its simplicity and interpretability. Accuracy measures the proportion of correctly predicted instances out of the total number of instances in the dataset.
+
+In the context of Thai number handwriting prediction, the goal is to correctly classify handwritten digits into their respective numerical values. Since the task involves discrete class labels (digits), accuracy provides a straightforward measure of how well the model is able to classify the digits correctly.
+
+Accuracy score is easy to understand and interpret, making it suitable for evaluating the overall performance of the model. It gives a clear indication of the model's predictive accuracy, allowing for easy comparison between different models or approaches.
+
+However, it is important to note that accuracy alone may not provide a complete picture of the model's performance, especially in scenarios where the dataset is imbalanced or the cost of misclassification varies across classes. In such cases, additional evaluation metrics, such as precision, recall, or F1 score, may be considered to gain a more comprehensive understanding of the model's predictive capabilities.
+
+Ultimately, the choice of evaluation metric depends on the specific requirements and characteristics of the problem at hand, but accuracy score remains a widely used metric for classification tasks, including Thai number handwriting prediction.
+
 ### 8.Cross Validation Score
 
 
+Cross-validation score is an essential evaluation metric in machine learning for assessing a model's performance and generalization ability. It involves splitting the dataset into multiple subsets, training the model on different combinations of these subsets, and evaluating its performance on the remaining data. By using cross-validation, we can obtain a more accurate estimation of the model's performance on unseen data compared to a single train-test split. It helps in detecting and mitigating issues such as overfitting or underfitting, aids in selecting the best hyperparameters, and provides a more reliable measure of the model's predictive capability. Ultimately, cross-validation score enables us to make informed decisions about model selection and optimization for better overall performance.
 
 
 
