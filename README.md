@@ -112,20 +112,22 @@ Learning curve is a useful tool for assessing the performance and generalization
 
 ### 7.Accuracy Score
 
-Accuracy score is commonly used as a performance metric for classification tasks, including Thai number handwriting prediction, due to its simplicity and interpretability. Accuracy measures the proportion of correctly predicted instances out of the total number of instances in the dataset.
+Accuracy score is a commonly chosen metric for Thai number handwriting prediction because it provides a straightforward measure of how well the model classifies the digits correctly.
 
-In the context of Thai number handwriting prediction, the goal is to correctly classify handwritten digits into their respective numerical values. Since the task involves discrete class labels (digits), accuracy provides a straightforward measure of how well the model is able to classify the digits correctly.
-
-Accuracy score is easy to understand and interpret, making it suitable for evaluating the overall performance of the model. It gives a clear indication of the model's predictive accuracy, allowing for easy comparison between different models or approaches.
-
-However, it is important to note that accuracy alone may not provide a complete picture of the model's performance, especially in scenarios where the dataset is imbalanced or the cost of misclassification varies across classes. In such cases, additional evaluation metrics, such as precision, recall, or F1 score, may be considered to gain a more comprehensive understanding of the model's predictive capabilities.
-
-Ultimately, the choice of evaluation metric depends on the specific requirements and characteristics of the problem at hand, but accuracy score remains a widely used metric for classification tasks, including Thai number handwriting prediction.
+|**Models**|**Randome Forest**|**Extra Trees Classifier**|**XGBoost**|**Neural Network**|**Logistic**|
+|---|:---:|:---:|:---:|:---:|:---:|
+|**Accuracy Train**|_0.9682_|_0.9462_|_0.8193_|__0.9812__|_0.9483_|
+|**Accuracy Test**|*0.7907*|*0.7694*|*0.7093*|__0.7982__|*0.7970*|
 
 ### 8.Cross Validation Score
 
 
 Cross-validation score is an essential evaluation metric in machine learning for assessing a model's performance and generalization ability. It involves splitting the dataset into multiple subsets, training the model on different combinations of these subsets, and evaluating its performance on the remaining data. By using cross-validation, we can obtain a more accurate estimation of the model's performance on unseen data compared to a single train-test split. It helps in detecting and mitigating issues such as overfitting or underfitting, aids in selecting the best hyperparameters, and provides a more reliable measure of the model's predictive capability. Ultimately, cross-validation score enables us to make informed decisions about model selection and optimization for better overall performance.
+
+|**Models**|**Randome Forest**|**Extra Trees Classifier**|**XGBoost**|**Neural Network**|**Logistic**|
+|---|:---:|:---:|:---:|:---:|:---:|
+|**CV Score**|_0.7832_|_0.7778_|_0.6896_|_0.8058_|_0.7875_|
+|**SD**|*0.0081*|*0.0176*|*0.0219*|_0.0212_|*0.0183*|
 
 
 
