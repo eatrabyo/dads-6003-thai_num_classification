@@ -2,9 +2,11 @@
 
 
 ## Data collection
-รูปภาพตัวเลขไทยของกลุ่มเราได้มาจาก 2 แหล่ง ข้อมูล 
- 1.จาก repo ของคุณ กิตินันท์
- 2.เขียนเองเอง
+Pictures of Thai numbers come from 2 sources.
+
+1.[Kittinan 's Repository](https://github.com/kittinan/thai-handwriting-number)
+
+2.Written Thai number by group members
  
  ๐ ๑ ๒ ๓ ๔ ๕ ๖ ๗ ๘ ๙
  
@@ -15,8 +17,11 @@ Image width and height: 28x28 pixels
 Data Preprocessing
 ### 1. convert image to array
 
+   Converting an image to an array involves representing the image's pixel values in a structured numerical format. This allows for efficient manipulation and processing of the image using programming tools and algorithms. By converting the image to an array, we obtain a data structure that represents the image's content, enabling us to perform various image processing tasks effectively.
+
 __1.1) Original image__
 
+ 
  
 ![image](https://github.com/eatrabyo/dads-6003-thai_num_classification/assets/83213407/add8c1a8-0ecd-4289-9dd1-61ffb4107d08)
 
@@ -45,7 +50,7 @@ __1.4) Resize__
 <em>Figure1</em>
 </p>
 
-ทำการรวมแหล่งของข้อมูลมาเป็นก้อนเดียวแล้วหลังจากนั้นแยก ข้อมูล ไปเทรน 7 ส่วน และ อีก 3 ส่วนนำมาเพื่อใช้ทดสอบ
+Combining the data from various sources into a single unit, then splitting it into 70% for training and the remaining 30% for testing.
 
 ### 3.put in pipeline
 
@@ -57,22 +62,53 @@ __1.4) Resize__
 </p>
 
 
-โดยการนำไปใส่ pipeline  ประกอบไปด้วย
+Pipeline Assembly
 
 1. preprocessing
-2. โมเดลที่กลุ่มพวกเราเลือกใช้
+2. model and hyperparameter
  
    * Random Forest
+     * bootstrap
+     * max_depth
+     * max_features
+     * max_leaf_nodes
+     * n_estimators
+     * random_state
+     * warm_start
    * ExtraTreesClassifier
+     * max_depth
+     * max_features
+     * max_leaf_nodes
+     * n_estimators
+     * random_state
+     * warm_start
    * XGBoost
+     * colsample_bylevel
+     * colsample_bynode
+     * colsample_bytree
+     * eval_metric
+     * learning_rate
+     * max_depth
+     * n_estimators
+     * etc.
    * Neural Networks
+     * activation
+     * alpha
+     * hidden_layer_sizes
+     * random_state
+     * solver
    * Logistic Regression
+     * C
+     * max_iter
+     * multi_class
+     * random_state
+     * solver
 
 ### 5.Tuning Hyper Parameter
- โดยใช้ gridseach เพื่อหา hyperparameter ที่ให้ train test score ออกมาดีที่สุด
+GridSearch is a technique for tuning hyperparameters by exhaustively searching through a predefined grid of hyperparameter values. It systematically evaluates the performance of a machine learning model across all possible combinations of hyperparameters, allowing for the selection of the optimal configuration. Although it can be computationally expensive, GridSearch provides an effective approach to finding the best hyperparameter values for maximizing the model's performance.
 
 ### 6.Plot Learning Curve
-เพื่อใช้ดูทิศทางการ converge ของระหว่างค่า train score และ test score
+Learning curve is a useful tool for assessing the performance and generalization ability of a machine learning model. When a model exhibits a good fit, the learning curve demonstrates a desirable pattern: as the training data size increases, both the training and validation curves converge and plateau at a high level of performance. This indicates that the model is learning well from the data and can generalize effectively to new, unseen examples. On the other hand, an overfitting model shows a significant gap between the training and validation curves, with the training curve reaching near-perfect performance while the validation curve plateaus at a lower level. This suggests that the model is overly complex and has memorized the training data, failing to generalize well to new data. Achieving a good fit, where the training and validation curves converge at a satisfactory level, is the goal when building machine learning models to ensure reliable performance on unseen data.
 
 ### 7.Accuracy Score
 
