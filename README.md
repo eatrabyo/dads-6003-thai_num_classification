@@ -27,10 +27,11 @@ The picture below displays a sample of the original image.
 
 
 
-__1.2) Dilation
+__1.2) Dilation__
 
 We have decided to apply a dilation process to the dataset, as dilation can assist in regularizing the machine learning model. The picture below demonstrates the reduction in the thickness of the numbers.
- 
+
+
 ![image](https://github.com/eatrabyo/dads-6003-thai_num_classification/assets/83213407/2f43314c-96e6-41c0-9cac-308dca7f8f38)
 
 
@@ -38,12 +39,15 @@ __1.3) Crop and Squared Image__
 
 Some numbers are located in the corners of the pictures, with varying sizes, some being too small and others being large. Therefore, after dilating the dataset, we plan to crop out the white background, ensuring that the numbers are as close as possible to their edges.
 
+
 ![image](https://github.com/eatrabyo/dads-6003-thai_num_classification/assets/83213407/7105aef7-baff-4053-aafd-23019d84271b)
 
 
 __1.4) Resize__
  
 After applying dilation and cropping, we resize the pictures to 28 x 28 pixels. Subsequently, we flatten the arrays to 784 elements.
+
+
 ![image](https://github.com/eatrabyo/dads-6003-thai_num_classification/assets/83213407/c6253682-8074-40bb-a9f2-4520f4d53fff)
 
 ### 2. Train & Test Split
