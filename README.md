@@ -33,7 +33,7 @@ __1.2) Dilated image__
 ![image](https://github.com/eatrabyo/dads-6003-thai_num_classification/assets/83213407/2f43314c-96e6-41c0-9cac-308dca7f8f38)
 
 
-__1.3) Crop and squared Imaage__
+__1.3) Crop and squared Image__
  
 ![image](https://github.com/eatrabyo/dads-6003-thai_num_classification/assets/83213407/7105aef7-baff-4053-aafd-23019d84271b)
 
