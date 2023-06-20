@@ -176,7 +176,7 @@ We have chosen the accuracy score as the metric for measuring accuracy in this p
 
 Below are the accuracy score for each model.
 
-|**Models**|**Randome Forest**|**Extra Trees Classifier**|**XGBoost**|**Neural Network**|**Logistic**|
+|**Models**|**Random Forest**|**Extra Trees Classifier**|**XGBoost**|**Neural Network**|**Logistic**|
 |---|:---:|:---:|:---:|:---:|:---:|
 |**Accuracy Train**|_0.9682_|_0.9462_|_0.8193_|__0.9812__|_0.9483_|
 |**Accuracy Test**|*0.7907*|*0.7694*|*0.7093*|__0.7982__|*0.7970*|
@@ -188,7 +188,7 @@ Cross-validation score is an essential evaluation metric in machine learning for
 
 Beloew are the cross validation score (5 folds) for each model.
 
-|**Models**|**Randome Forest**|**Extra Trees Classifier**|**XGBoost**|**Neural Network**|**Logistic**|
+|**Models**|**Random Forest**|**Extra Trees Classifier**|**XGBoost**|**Neural Network**|**Logistic**|
 |---|:---:|:---:|:---:|:---:|:---:|
 |**CV Score**|_0.7832_|_0.7778_|_0.6896_|_0.8058_|_0.7875_|
 |**SD**|*0.0081*|*0.0176*|*0.0219*|_0.0212_|*0.0183*|
