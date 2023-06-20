@@ -142,6 +142,13 @@ print(tune.best_params_)
 Learning curve is a useful tool for assessing the performance and generalization ability of a machine learning model. When a model exhibits a good fit, the learning curve demonstrates a desirable pattern: as the training data size increases, both the training and validation curves converge and plateau at a high level of performance. This indicates that the model is learning well from the data and can generalize effectively to new, unseen examples. On the other hand, an overfitting model shows a significant gap between the training and validation curves, with the training curve reaching near-perfect performance while the validation curve plateaus at a lower level. This suggests that the model is overly complex and has memorized the training data, failing to generalize well to new data. Achieving a good fit, where the training and validation curves converge at a satisfactory level, is the goal when building machine learning models to ensure reliable performance on unseen data.
 
 ```
+train_sizes, train_scores, test_scores = learning_curve(pipe_et, x_train, y_train, cv=5, scoring='accuracy')
+
+train_scores_mean = np.mean(train_scores, axis=1)
+train_scores_std = np.std(train_scores, axis=1)
+test_scores_mean = np.mean(test_scores, axis=1)
+test_scores_std = np.std(test_scores, axis=1)
+
 plt.figure()
 plt.xlabel("Training examples")
 plt.ylabel("Accuracy Score")
