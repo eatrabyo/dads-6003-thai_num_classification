@@ -210,8 +210,8 @@ Beloew are the cross validation score (5 folds) for each model.
 ## Contributors
 * Itthisak Pratukaew
 * Nattasorn Tanpichai
-* Pinyawat Sabsanhor
 * Patchadol Ratanapittayaruk
+* Pinyawat Sabsanhor
 * Suthida Jumlongrasd
 * Vichunun Kampiro
 
