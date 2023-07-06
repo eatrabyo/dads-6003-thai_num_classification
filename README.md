@@ -1,7 +1,7 @@
 # DADS 6003 Thai Hand Writing Number Classification
 
 
-## Data Collection
+### Data Collection
 Pictures of Thai numbers come from 2 sources.
 
 1. [Kittinan 's Repository](https://github.com/kittinan/thai-handwriting-number)
